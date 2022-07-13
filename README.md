@@ -6,7 +6,7 @@ comando: npm i yarn
 
 Após instalação do yarn rode os comandos respectivamente em sua maquina:
 
-comando 1: yarn
+comando 1: yarn<br/>
 comando 2: yarn dev
 
 Veja a execução do site em: localhost:3000
