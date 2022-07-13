@@ -1,0 +1,160 @@
+.itensCompras{
+    width: 100%;
+    height: calc(1024px - 97px - 80px + 1px - 42px - 42px - 42px - 56px);
+    overflow-y: auto;
+}
+
+.imgCompras{
+    width: 76px;
+    height: 76px;
+}
+
+.itemCompras{
+    display: flex;
+    width: calc(79% - 19px);
+    height: calc(95px - 19px);
+    background: white;
+    margin-left: 42px;
+    padding: 19px;
+    border-radius: 8px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.descricaoCompras{    
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+    width: 120px;
+    align-self: center;
+}
+
+.columCompras{
+    margin-top: 13px;
+    margin-right: 30px;
+}
+
+.qtdCompras{
+    height: 11px;
+    width: 6px;
+    font-size: 9px;
+}
+
+.rowCompras{  
+    width: 50px;
+    height: 19px;
+    border: black solid 1px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonMenosCompras, .buttonMaisCompras, .labelCompras{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.labelCompras{
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.buttonRemoverItem{
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    right: -25px;
+    margin-top: -30px;
+}
+
+.priceCompras{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.itemComprasZero {
+    display: flex;
+    flex-direction: column;
+    width: calc(79% - 19px);
+    height: 220px;
+    background: white;
+    margin-left: 27px;
+    padding: 19px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.imgComprasZero {
+    width: 115px;
+    height: 95px;
+    align-self: center;
+}
+
+.columComprasZero{
+    margin-top: 13px;
+    margin-right: 30px;
+    display: flex;   
+    justify-content: space-between;
+}
+
+.descricaoComprasZero {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.buttonRemoverItemZero {
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    left: 220px;
+    top: -220px;
+    font-size: 18px;
+}
+
+.rowComprasZero {
+    width: 90px;
+    height: 30px;
+    border: black solid 1px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.labelComprasZero {
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.priceComprasZero {
+    font-weight: 700;
+    font-size: 17px;
+    background: #373737;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px;
+    margin-top: -1px;
+}
+
+.buttonMenosComprasZero, .buttonMaisComprasZero, .labelComprasZero {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    font-size: 25px;
+}

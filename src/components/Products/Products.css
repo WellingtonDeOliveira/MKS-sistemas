@@ -1,0 +1,24 @@
+div.products{
+    display: flex;
+    flex-direction: column;
+    margin-top: 190px;
+}
+
+.linhaOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.linhaZero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linhaTwo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

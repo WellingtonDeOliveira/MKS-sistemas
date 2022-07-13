@@ -1,0 +1,17 @@
+div.viewFooter{
+    width: calc(100% - 4px);
+    height: 39px;
+    bottom: 0;
+    left: 0;
+    background: #eeeeee;
+    margin-top: 164px;
+    padding: 2px;
+}
+
+.titleFooter{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 12px;
+}
