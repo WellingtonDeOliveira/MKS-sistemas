@@ -5,7 +5,7 @@
 <p align="center">
  <a href="#características">Características</a> •
  <a href="#tecnologias">Tecnologias</a> •
- <a href="#instalação">Pré Requisitos</a>
+ <a href="#instalação">Instalação</a>
 </p>
 
 ### Características
